@@ -1,0 +1,350 @@
+{"integrat_academichonesty":"
+\n
+UNSW has an ongoing commitment to fostering a culture of learning informed by academic integrity. All UNSW students have a responsibility to adhere to this principle of academic integrity. Plagiarism undermines academic integrity and is not tolerated at UNSW.Â Plagiarism at UNSW is defined as using the words or ideas of others and passing them off as your own.
+
+\n\n
+Plagiarism is a type of intellectual theft. It can take many forms, from deliberate cheating to accidentally copying from a source without acknowledgement. UNSW has produced a website with a wealth of resources to support students to understand and avoid plagiarism, visit: student.unsw.edu.au/plagiarism. The Learning Centre assists students with understanding academic integrity and how not to plagiarise. They also hold workshops and can help students one-on-one.
+
+\n\n
+You are also reminded that careful time management is an important part of study and one of the identified causes of plagiarism is poor time management. Students should allow sufficient time for research, drafting and the proper referencing of sources in preparing all assessment tasks.
+
+\n\n
+Repeated plagiarism (even in first year), plagiarism after first year, or serious instances, may also be investigated under the Student Misconduct Procedures. The penalties under the procedures can include a reduction in marks, failing a course or for the most serious matters (like plagiarism in an honours thesis or contract cheating) even suspension from the university. The Student Misconduct Procedures are available here:
+
+\n\n
+www.gs.unsw.edu.au/policy/documents/studentmisconductprocedures.pdf
+
+\n
+\n","integrat_additionalcosts":null,"integrat_additionalcourseinfo":null,"integrat_additionalterms":null,"integrat_approach":"Moodle - Learning Management System | Microsoft Teams | Echo 360 | Formatif, Discourse, Overleaf","integrat_assessmentinfo":"
+Up to 5 bonus marks will be awarded for contribution to other students' learning. This is awarded on the basis of constructive participation in lecture, seminar and lab classes, as well as activity on the course forum. We typically award at least one bonus mark to about 3-5% of students, and about half as many students receive each additional mark.
+
+","integrat_attendancecustomreq":null,"integrat_attendancereq":"Students are strongly encouraged to attend all classes and review lecture recordings.","integrat_campus":"Sydney","integrat_career":"Undergraduate","integrat_courseaims":"
+In this course, students will be introduced to a variety of algorithm design techniques (greedy, dynamic programming, divide and conquer, etc), and most importantly learn how to apply them in different settings.
+
+\n
+This course aims to develop students' theoretical knowledge in order to design correct and efficient software, as well as problem solving, critical thinking and written communication skills.
+
+\n
+By understanding algorithm design principles, analysing and evaluating algorithms, and applying these principles to solve unfamiliar problems, students will become more capable and responsible problem solvers.
+
+","integrat_coursecode":"COMP3121","integrat_coursename":"Algorithm Design and Analysis","integrat_courserelationships":"
+This course extends COMP2521 Data Structures and Algorithms and MATH1081 Discrete Mathematics, and prepares students for further study in algorithms and theoretical computer science. Proficiency in LaTeX is also developed in order to help students prepare professional documents including a thesis if necessary in the future.
+
+Students with an interest in computer science research should consider taking COMP3821 Extended Algorithm Design and Analysis, which covers more theoretical topics and in greater depth.
+
+","integrat_coursesummary":"
+How would you convince a colleague that your program is correct, and that theirs is flawed?
+
+\n
+How do you estimate how long a program will run for, and design test cases to find bugs?
+Can all problems be solved efficiently, or are some problems "too hard"?
+
+\n
+In this course, you will learn the building blocks to develop problem-solving software in fields as diverse as finance, logistics, policy and entertainment. You will apply techniques including divide-and-conquer, greedy selection and dynamic programming in order to develop accurate and fast algorithms in contexts such as graphs and strings. You will also develop the ability to think critically and communicate about algorithms in terms of correctness and efficiency.
+
+\n
+Join us to find out how you can become a better programmer without writing any code.
+
+","integrat_courseteachlearn":"
+Lectures will be live streamed and recorded on Echo360, but in-person attendance is recommended.
+
+The seminars will function as recitation classes, aimed to revise and reinforce lecture content, and exhibit how to solve standard problems. Students are of course welcome to ask questions, and may be asked to interact in pairs or small groups. One of these classes will be held online, with a recording taken and made available to all students.
+
+All lab classes will be held in person. Students are expected to attend their timetabled lab classes. Students may change their lab group in Formatif until week 4 if capacity permits. 
+
+You do not need to inform anyone if you will be missing a class, and you do not need to apply for Special Consideration.
+
+Consultations will be held in K17, office 217D, 12pm - 1pm on Mondays (excluding Week 10). Please contact the course authority if you need to arrange a consultation at other times.
+
+","integrat_deliveryformat":"Standard","integrat_deliverymode":"In Person","integrat_ecoscourseoutlineid":19825,"integrat_evaluationdev":"
+This course is evaluated each session using the myExperience system.
+Compared to the previous offering, labs will focus more on discussion between students, with additional demonstration tasks aimed at providing more opportunities to develop learning. 
+
+ 
+
+","integrat_expectedresources":"
+The course resources are intended to be self-contained, but students may consult either of the following textbooks for supplemental reading.
+
+Kleinberg and Tardos: Algorithm Design (2nd edition)
+Cormen, Leiserson, Rivest and Stein: Introduction to Algorithms (4th edition)
+Erickson: Algorithms (1st edition)
+","integrat_facultyInfo":"
+Engineering Student Support Services – The Nucleus - enrolment, progression checks, clash requests, course issues or program-related queries 
+
+\n\n
+Engineering Industrial Training – Industrial training questions 
+
+\n\n
+UNSW Study Abroad – study abroad student enquiries (for inbound students) 
+
+\n\n
+UNSW Exchange – student exchange enquiries (for inbound students) 
+
+\n\n
+UNSW Future Students – potential student enquiries e.g. admissions, fees, programs, credit transfer 
+
+\n\n
+Phone 
+
+\n\n
+(+61 2) 9385 8500 – Nucleus Student Hub 
+
+\n","integrat_facultyinfo_essentialinfo":"
+I. Special consideration and supplementary assessment
+
+\n\n
+If you have experienced an illness or misadventure beyond your control that will interfere with your assessment performance, you are eligible to apply for Special Consideration prior to, or within 3 working days of, submitting an assessment or sitting an exam.
+
+\n\n
+Please note that UNSW has a Fit to Sit rule, which means that if you sit an exam, you are declaring yourself fit enough to do so and cannot later apply for Special Consideration.
+
+\n\n
+For details of applying for Special Consideration and conditions for the award of supplementary assessment, please see the information on UNSW’s Special Consideration page.
+
+\n\n
+II. Administrative matters and links
+
+\n\n
+All students are expected to read and be familiar with UNSW guidelines and polices. In particular, students should be familiar with the following:
+
+\n\n
+\n\t
+Attendance
+\n\t
+UNSW Email Address
+\n\t
+Special Consideration
+\n\t
+Exams
+\n\t
+Approved Calculators
+\n\t
+Academic Honesty and Plagiarism
+\n\t
+Equitable Learning Services
+\n
+\n\n
+III. Equity and diversity
+
+\n\n
+Those students who have a disability that requires some adjustment in their teaching or learning environment are encouraged to discuss their study needs with the course convener prior to, or at the commencement of, their course, or with the Equity Officer (Disability) in the Equitable Learning Services. Issues to be discussed may include access to materials, signers or note-takers, the provision of services and additional exam and assessment arrangements. Early notification is essential to enable any necessary adjustments to be made.
+
+\n\n
+IV. Professional Outcomes and Program Design
+
+\n\n
+Students are able to review the relevant professional outcomes and program designs for their streams by going to the following link: https://www.unsw.edu.au/engineering/student-life/student-resources/program-design.
+
+\n\n
+Note: This course outline sets out the description of classes at the date the Course Outline is published. The nature of classes may change during the Term after the Course Outline is published.  Moodle or your primary learning management system (LMS) should be consulted for the up-to-date class descriptions.  If there is any inconsistency in the description of activities between the University timetable and the Course Outline/Moodle/LMS, the description in the Course Outline/Moodle/LMS applies. 
+
+\n","integrat_gradingbasis":"Standard UNSW Grades","integrat_handbooklink":"https://www.handbook.unsw.edu.au/undergraduate/courses/2026/COMP3121","integrat_ismultiterm":"No","integrat_location":"Kensington","integrat_lastpublishedon":"17 May 2026","integrat_otherprofoutcomes":null,"integrat_owningacademicunit":"School of Computer Science and Engineering","integrat_owningfaculty":"Faculty of Engineering","integrat_recommenedres":null,"integrat_resourcesreqd":null,"integrat_reqtopass":null,"integrat_scheduleinfo":"
+Week 1
+Lecture 1: Welcome (vision, introduction to algorithm design and analysis, course overview, administration)
+Lecture 2: Foundations (time complexity, revision of data structures and algorithms, revision of proof techniques)
+Seminar: Foundations
+Formatif: Foundations
+
+Week 2
+Lecture 3: Greedy Algorithms I (greedy paradigm, optimal selection)
+Lecture 4: Greedy Algorithms II (optimal ordering, optimal merging)
+Seminar: Greedy Algorithms
+Formatif: Greedy Algorithms
+
+Week 3
+Lecture 5: Greedy Algorithms III (strongly connected components, directed acyclic graphs)
+Lecture 6: Greedy Algorithms IV (single source shortest paths, minimum spanning tree)
+Seminar: Greedy Algorithms
+Formatif: Greedy Algorithms
+
+Week 4
+Lecture 7: Dynamic Programming I (overlapping subproblems, one-dimensional state spaces)
+Lecture 8: Dynamic Programming II (making change, knapsack, two-dimensional state spaces)
+Seminar: Dynamic Programming
+Formatif: Dynamic Programming
+
+Week 5
+Lecture 9: Dynamic Programming III (two-dimensional state spaces with linear recurrences, directed acyclic graphs, single source shortest paths)
+Lecture 10: Dynamic Programming IV (all pairs shortest paths, DP on trees, string matching)
+Seminar: Dynamic Programming
+Formatif: Dynamic Programming
+
+Week 7
+Lecture 11: Intractable Problems I (computationally difficult problems, classes P and NP, polynomial-time reductions, NP-complete and NP-hard problems)
+Lecture 12: Intractable Problems II (linear programming, practical algorithms for NP-complete problems, approximation algorithms for NP-hard optimisation problems)
+Seminar: Intractable Problems
+Formatif: Intractable Problems
+
+Week 8
+Lecture 13: cancelled due to public holiday (Easter Monday)
+Lecture 14: Flow Networks I (maximum flow, minimum cut)
+Seminar: Intractable Problems, Flow Networks
+Formatif: Intractable Problems, Flow Networks
+
+Week 9
+Lecture 15: Flow Networks II (flow network constructions, bipartite matching)
+Lecture 16: Divide and Conquer I (recursive problem solving, binary search, merge sort, quicksort)
+Seminar: Flow Networks, Divide and Conquer
+Formatif: Flow Networks, Divide and Conquer
+
+Week 10
+Lecture 17: Divide and Conquer II (analysing correctness and efficiency of divide and conquer algorithms, fast multiplication of integers)
+Lecture 18: Divide and Conquer III (convolutions and the Fast Fourier Transform)
+Seminar: Divide and Conquer
+Formatif: -
+ 
+
+No classes are held in week 6 (flexibility week).
+The assessment of demonstration tasks takes place in weekly lab classes. Students need to attend the lab that they are enrolled in.
+
+","integrat_school_additional_info":null,"integrat_school_contact_info":"
+CSE Help! - on the Ground Floor of K17
+
+\n\n
+\n\t
+For assistance with coursework assessments. 
+\n
+\n\n
+The Nucleus Student Hub - https://nucleus.unsw.edu.au/en/contact-us
+
+\n\n
+\n\t
+Course enrolment queries.
+\n
+\n\n
+Grievance Officer - grievance-officer@cse.unsw.edu.au
+
+\n\n
+\n\t
+If the course convenor gives an inadequate response to a query or when the courses convenor does not respond to a query about assessment. 
+\n
+\n\n
+Student Reps -  stureps@cse.unsw.edu.au
+
+\n\n
+\n\t
+\n\t
+If some aspect of a course needs urgent improvement. (e.g. Nobody responding to forum queries, cannot understand the lecturer)
+
+\n\t
+\n
+\n\n
+ 
+
+\n\n
+You should never contact any of the following people directly:
+
+\n\n
+- Vice Chancellor
+
+\n\n
+- Pro-vice Chancellor Education (PVCE)
+
+\n\n
+- Head of School
+
+\n\n
+- CSE administrative staff
+
+\n\n
+- CSE teaching support staff
+
+\n\n
+They will simply bounce the email to one of the above, thereby creating an unnecessary level of indirection and a delay in the response.
+
+\n","integrat_simscourseid":"005767","integrat_subassmnttasks":"
+\n
+Work submitted late without an approved extension by the course coordinator or delegated authority is subject to a late penalty of five percent (5%) for that assessment item.
+
+\n\n
+The late penalty is applied per calendar day (including weekends and public holidays) that the assessment is overdue. There is no pro-rata of the late penalty for submissions made part way through a day. This is for all assessments where a penalty applies.
+
+\n\n
+Work submitted after five days (120 hours) will not be accepted and a mark of zero will be awarded for that assessment item.
+
+\n\n
+For some assessment items, a late penalty may not be appropriate. These will be clearly indicated in the course outline, and such assessments will receive a mark of zero if not completed by the specified date. Examples include:
+
+\n\n
+\n\t
+Weekly online tests or laboratory work worth a small proportion of the subject mark;
+\n\t
+Exams, peer feedback and team evaluation surveys;
+\n\t
+Online quizzes where answers are released to students on completion;
+\n\t
+Professional assessment tasks, where the intention is to create an authentic assessment that has an absolute submission date; and,
+\n\t
+Pass/Fail assessment tasks.
+\n
+\n
+\n","integrat_system_settings_additional_info":null,"integrat_teachingperiod":"T2","integrat_term":"Term 2","integrat_termcode":"5266","integrat_timetablelink":"https://timetable.unsw.edu.au/2026/COMP3121.html","integrat_unitsofcredit":6,"integrat_year":"2026","integrat_CO_Assessment":[{"integrat_additionalinfo":null,"integrat_criteria":"","integrat_detail":"
+There are four types of tasks, with different submission requirements in the Formatif system:
+
+Demonstration tasks (D) require you to interact with your instructors in person and satisfy them that you have met the associated learning outcomes. This includes discussing submitted tasks as well as participating in in-lab group-based tasks.
+Moodle tasks (M) require you to complete a learning activity (usually a quiz) on Moodle.
+Regular tasks (R) require you to submit a PDF document. You are welcome to use the LaTeX template provided in the 'Task Resources' section, but you can instead use any other method, such as a word processor or clear handwriting.
+LaTeX tasks (L) require you to submit a PDF document and the LaTeX source code used to produce it. In these tasks, you will be assessed on not only the content but also your use of LaTeX for document preparation.
+For each task, you must make a submission by the due date listed, but you will have additional opportunities to incorporate tutor feedback where relevant.
+
+Extensions of up to one week can be requested within the Formatif system, so Special Consideration is only required for long periods of impact.
+
+Assessment information
+
+You can change your target grade in Formatif at any time, for example if you want a greater challenge or if you are falling behind. You can also apply for an extension on any task with brief reasoning.
+
+You may make reference to published course material (e.g. lecture slides) without providing a formal citation. The same applies to material from prerequisite courses. You may make reference to either of the recommended textbooks with a citation in any format. You may reproduce material from external sources in your own words, along with a citation in any format. You may discuss the assignment problems with other students, so long as you acknowledge them in a citation. An 'attribution' section is provided in the LaTeX template for each task, where you may present these citations. Please review the UNSW plagiarism policy.
+
+","integrat_duedate":"Week 1-5, 7-9","integrat_duedatetype":"Other","integrat_format":null,"integrat_shortextension":null,"integrat_groupindividual":"Individual","integrat_hurdlerules":null,"integrat_length":null,"integrat_postdate":null,"integrat_assmntstandards":[],"integrat_startdate":null,"integrat_startdatetype":null,"integrat_submissionnotes":null,"integrat_tasks":null,"integrat_title":"Portfolio","integrat_turnitintype":null,"integrat_type":null,"integrat_order":"1","integrat_weight":"60%","integrat_summary":"
+Portfolio consists of responses to a collection of formative tasks completed during the term.
+
+\n
+Tasks will be made available upon the commencement of each module. Individual written or oral feedback will be provided promptly upon submission (in labs or online), after which the student can resubmit until the task is complete or the deadline expires.
+
+\n
+This assessment uses contract grading. Students are expected to complete tasks up to and including their chosen grade target (which can be changed at any time), with more open-ended and extension tasks to distinguish between the highest achievers. The final portfolio will be evaluated using delayed summative assessment, with input from the student's tutor and a formula to quantify tasks completed.
+
+\n
+Overall the portfolio tasks should take around 6-8 hours per week.
+
+","integrat_ai_additional_info":"
+Written communication is a key learning outcome of this course. All writing must be your own, with the exception of spell-checking and translation of words or short phrases. It is not legitimate to automatically translate entire documents even if the input is your original writing in another language. It will also be considered academic misconduct if you use any generative AI tool to edit or rephrase an answer before submission (such as ChatGPT).
+
+You may not submit a response that was received from or based off a generative AI tool (such as ChatGPT or Gemini) and you may not use any AI tool that suggests completions or rewordings of what you are typing (such as Grammarly or Writefull).
+
+","integrat_ai_permission":"Simple Editing Assistance","integrat_ai_permission_guidance":"In completing this assessment, you are permitted to use standard editing and referencing functions in the software you use to complete your assessment. These functions are described below. You must not use any functions that generate or paraphrase passages of text or other media, whether based on your own work or not.
+If your Convenor has concerns that your submission contains passages of AI-generated text or media, you may be asked to account for your work. If you are unable to satisfactorily demonstrate your understanding of your submission you may be referred to UNSW Conduct & Integrity Office for investigation for academic misconduct and possible penalties.
+For more information on Generative AI and permitted use please see here.","integrat_assmtclos":["CLO1 : Explain how standard design techniques are used to develop algorithms.","CLO2 : Solve problems by creatively applying algorithm design techniques.","CLO3 : Communicate algorithmic ideas at different levels of abstraction.","CLO4 : Evaluate the efficiency of algorithms and justify their correctness.","CLO5 : Apply the LaTeX typesetting system to produce high-quality technical documents."]},{"integrat_additionalinfo":"
+Allowed materials for UNSW exams are listed here.
+
+In particular, you must bring:
+
+current (not expired) physical ID
+UNSW student ID, passport, driver's licence or government-issued photo ID card)
+pens and/or pencils
+laptop
+Your laptop must have the UNSW-approved version of Inspera Safe Exam Browser installed; follow the guide here.
+Note that only Windows and Mac are supported. Loan laptops can be borrowed from the lockers at the CSE building or Library.
+smartphone (for Single Sign-On only)
+You may also bring:
+
+one double-sided A4 sheet of notes
+there are no restrictions on its contents.
+a clear, unmarked and unlabelled water bottle
+an English or bilingual dictionary.
+","integrat_criteria":"","integrat_detail":"
+The final exam will be held on campus using INSPERA, under invigilation. Students will have to bring their own laptop with the Safe Exam Browser installed. Information and resources are available at https://www.student.unsw.edu.au/exams/inspera/on-campus, including the UNSW supported version of Safe Exam Browser.
+
+The exam may include multiple choice, short answer and extended response questions.
+
+","integrat_duedate":"Final exam period","integrat_duedatetype":"Other","integrat_format":null,"integrat_shortextension":null,"integrat_groupindividual":"Individual","integrat_hurdlerules":"
+Students receiving less than 40% of available marks will receive a UF grade.
+
+","integrat_length":"2 hours","integrat_postdate":null,"integrat_assmntstandards":[],"integrat_startdate":null,"integrat_startdatetype":null,"integrat_submissionnotes":null,"integrat_tasks":null,"integrat_title":"Final Exam","integrat_turnitintype":null,"integrat_type":null,"integrat_order":"2","integrat_weight":"40%","integrat_summary":"
+The final examination is a 2 hour in person invigilated exam that tests critical thinking and general understanding of the course material, in addition to the application of algorithm design techniques to analyse algorithms and solve unseen problems.
+
+\n
+Marking will be completed using a rubric. There is a hurdle of 40% on the final exam.
+
+","integrat_ai_additional_info":null,"integrat_ai_permission":"No Assistance","integrat_ai_permission_guidance":"This assessment is designed for you to complete without the use of any generative AI. You are not permitted to use any generative AI tools, software or service to search for or generate information or answers.
+For more information on Generative AI and permitted use please see here.","integrat_assmtclos":["CLO1 : Explain how standard design techniques are used to develop algorithms.","CLO2 : Solve problems by creatively applying algorithm design techniques.","CLO3 : Communicate algorithmic ideas at different levels of abstraction.","CLO4 : Evaluate the efficiency of algorithms and justify their correctness."]}],"integrat_assmntstandardstitle":"","integrat_CO_Assessment_Table_Metadata":[[{"text":"Assessment Item","isHeading":"true"},{"text":"Weight","isHeading":"true"},{"text":"Relevant Dates","isHeading":"true"}],[{"field":"integrat_title","list":{"type":"dl","data":[[{"type":"dt","text":"Assessment Format"},{"type":"dd","field":"integrat_groupindividual"}],[{"type":"dt","text":"Short Extension"},{"type":"dd","field":"integrat_shortextension"}]]}},{"field":"integrat_weight"},{"list":{"type":"dl","data":[[{"type":"dt","text":"Start Date"},{"type":"dd","field":"integrat_startdate"}],[{"type":"dt","text":"Due Date"},{"type":"dd","field":"integrat_duedate"}],[{"type":"dt","text":"Post Date"},{"type":"dd","field":"integrat_postdate"}]]}}]],"integrat_CO_Authority":[{"integrat_availability":null,"integrat_elscontact":"Yes","integrat_elscontactsource":true,"integrat_email":"cs3121@unsw.edu.au","integrat_firstname":"COURSE","integrat_lastname":"EMAIL","integrat_location":null,"integrat_phone":null,"integrat_position":null,"integrat_primarycontact":"Yes","integrat_primarycontactsource":true},{"integrat_availability":null,"integrat_elscontact":"No","integrat_elscontactsource":false,"integrat_email":"paul.hunter@unsw.edu.au","integrat_firstname":"Paul","integrat_lastname":"Hunter","integrat_location":"K17 217D","integrat_phone":null,"integrat_position":"Convenor","integrat_primarycontact":"No","integrat_primarycontactsource":false}],"integrat_CO_LearningOutcome":[{"integrat_clo":"CLO1 : Explain how standard design techniques are used to develop algorithms.","integrat_code":"CLO1","integrat_description":"Explain how standard design techniques are used to develop algorithms.","integrat_loassmntitems":["Portfolio","Final Exam"],"integrat_lostandards":[],"integrat_order":1},{"integrat_clo":"CLO2 : Solve problems by creatively applying algorithm design techniques.","integrat_code":"CLO2","integrat_description":"Solve problems by creatively applying algorithm design techniques.","integrat_loassmntitems":["Portfolio","Final Exam"],"integrat_lostandards":[],"integrat_order":2},{"integrat_clo":"CLO3 : Communicate algorithmic ideas at different levels of abstraction.","integrat_code":"CLO3","integrat_description":"Communicate algorithmic ideas at different levels of abstraction.","integrat_loassmntitems":["Portfolio","Final Exam"],"integrat_lostandards":[],"integrat_order":3},{"integrat_clo":"CLO4 : Evaluate the efficiency of algorithms and justify their correctness.","integrat_code":"CLO4","integrat_description":"Evaluate the efficiency of algorithms and justify their correctness.","integrat_loassmntitems":["Portfolio","Final Exam"],"integrat_lostandards":[],"integrat_order":4},{"integrat_clo":"CLO5 : Apply the LaTeX typesetting system to produce high-quality technical documents.","integrat_code":"CLO5","integrat_description":"Apply the LaTeX typesetting system to produce high-quality technical documents.","integrat_loassmntitems":["Portfolio"],"integrat_lostandards":[],"integrat_order":5}],"integrat_lostandardstitle":"","integrat_CO_LearningOutcome_Table_Metadata":[[{"text":"Course Learning Outcomes","isHeading":"true"}],[{"field":"integrat_clo"}]],"integrat_CO_Schedule":[]}
