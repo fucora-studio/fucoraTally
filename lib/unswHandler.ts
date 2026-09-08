@@ -1,37 +1,48 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from "vinext/shims/server";
+import { GetData } from "./zod";
+import { Assessment, UNSWData } from "./interface";
 
-interface Assessment {
-    name: string,
-    weight: number
-}
 
-export async function GET(request: Request) {
-    const searchParams = new URLSearchParams(new URL(request.url).searchParams);
-    let course = searchParams.get('course');
-    const term = searchParams.get('term');
+export async function fetchData(form: GetData) {
+    try {
+        const year = new Date().getFullYear();
+        const { courseCode, location, term } = form;
 
-    //check the data if the params is available
-    if (!course || !term) {
-        return NextResponse.json({ error: "Missing Parameter" }, { status: 401 });
+        const response = await fetch(
+            `https://courseoutlines.unsw.edu.au/v1/publicsitecourseoutlines/detail?year=${year}&term=Term+${term}&deliveryMode=In+Person&deliveryFormat=Standard&teachingPeriod=T${term}&deliveryLocation=${location}&courseCode=${courseCode}&activityGroupId=1`
+        );
+
+        if (!response.ok) {
+            return NextResponse.json(
+                { error: "Failed to fetch course data" },
+                { status: response.status }
+            );
+        }
+
+        const data: UNSWData = await response.json();
+
+        if (!data.integrat_CO_Assessment) {
+            return NextResponse.json(
+                { error: "Assessment data not found" },
+                { status: 404 }
+            );
+        }
+
+        const assessments: Assessment[] =
+            data.integrat_CO_Assessment.map((item): Assessment => ({
+                name: item.integrat_title,
+                weight: parseFloat(
+                    item.integrat_weight.replace("%", "")
+                ),
+            }));
+
+        return NextResponse.json(assessments, { status: 200 });
+    } catch (error) {
+        console.error("Failed to fetch course data:", error);
+
+        return NextResponse.json(
+            { error: "Failed to fetch course data" },
+            { status: 500 }
+        );
     }
-
-    course = course.toUpperCase();
-    const year: number = new Date().getFullYear();
-    const fetchResponse = await fetch(`https://courseoutlines.unsw.edu.au/v1/publicsitecourseoutlines/detail?year=${year}&term=Term+${term}&deliveryMode=In+Person&deliveryFormat=Standard&teachingPeriod=T${term}&deliveryLocation=Kensington&courseCode=${course}&activityGroupId=1`);
-    const data: any = await fetchResponse.json();
-
-    // check if the fetch is good or not
-    if (!fetchResponse.ok || !data) {
-        return NextResponse.json({ error: "failed to fetch data" }, { status: 500 });
-    }
-
-    const rawAssessment = data.integrat_CO_Assessment;
-
-    const respArr: Assessment[] = rawAssessment.map((item: any) => ({
-        name: item.integrat_title,
-        weight: Math.round(parseFloat(item.integrat_weight.replace("%", "")) * 100),
-    }));
-
-    // return the data that have been compiled
-    return NextResponse.json(respArr, { status: 200 });
 }
