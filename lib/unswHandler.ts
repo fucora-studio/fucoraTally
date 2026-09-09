@@ -19,7 +19,8 @@ export async function fetchData(form: GetData) {
             );
         }
 
-        const data: UNSWData = await response.json();
+        let data: UNSWData = await response.json();
+        data = JSON.parse(JSON.stringify(data));
 
         if (!data.integrat_CO_Assessment) {
             return NextResponse.json(
