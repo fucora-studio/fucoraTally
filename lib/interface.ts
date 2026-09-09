@@ -11,3 +11,8 @@ export interface UNSWAssessment {
 export interface UNSWData {
     integrat_CO_Assessment: UNSWAssessment[];
 }
+
+export interface ChangeLog {
+    version: string; 
+    content: string[];
+}
