@@ -11,3 +11,8 @@ export interface UNSWAssessment {
 export interface UNSWData {
     integrat_CO_Assessment: UNSWAssessment[];
 }
+
+export interface error {
+    error: boolean;
+    message: string;
+}
