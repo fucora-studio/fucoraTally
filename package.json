@@ -5,8 +5,6 @@
 	"packageManager": "pnpm@12.3.4",
 	"dependencies": {
 		"@vinext/cloudflare": "latest",
-		"cheerio": "^1.2.0",
-		"playwright": "^1.63.0",
 		"react": "latest",
 		"react-dom": "latest",
 		"react-server-dom-webpack": "latest",
