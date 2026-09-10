@@ -16,3 +16,9 @@ export interface error {
     error: boolean;
     message: string;
 }
+
+export interface ReturnData {
+  code: string;
+  courseName: string;
+  assessment: Assessment[];
+}

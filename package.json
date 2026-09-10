@@ -23,7 +23,7 @@
 		"tailwindcss": "latest",
 		"typescript": "latest",
 		"vite": "latest",
-		"wrangler": "^4.129.1"
+		"wrangler": "^4.130.0"
 	},
 	"type": "module",
 	"scripts": {
