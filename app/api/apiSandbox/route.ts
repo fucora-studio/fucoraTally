@@ -1,22 +1,5 @@
-import { NextResponse } from "next/server";
 // import { getData } from "@/lib/zod";
 
-interface ReturnData {
-  code: string;
-  courseName: string;
-  assessment: Assessment[];
-}
-
-interface Assessment {
-  name: string;
-  weight: string;
-}
-
-interface RequestBody {
-  courseCode?: string;
-  term?: string;
-  location?: string;
-}
 
 // app/api/getData/route.ts
 export async function POST(request: Request) {

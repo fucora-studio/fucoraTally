@@ -1,9 +1,8 @@
-import { NextResponse } from "vinext/shims/server";
 import { GetData } from "./zod";
-import { Assessment, UNSWData } from "./interface";
+import { Assessment, ReturnData, UNSWData } from "./interface";
 
 
-export async function fetchData(form: GetData) {
+export async function fetchData(form: GetData): Promise<ReturnData> {
     try {
         const year = new Date().getFullYear();
         const { courseCode, location, term } = form;
@@ -13,21 +12,21 @@ export async function fetchData(form: GetData) {
         );
 
         if (!response.ok) {
-            return NextResponse.json(
-                { error: "Failed to fetch course data" },
-                { status: response.status }
-            );
+            throw new Error(`Failed to fetch data: ${response.status} ${response.statusText}`);
         }
 
         let data: UNSWData = await response.json();
         data = JSON.parse(JSON.stringify(data));
 
         if (!data.integrat_CO_Assessment) {
-            return NextResponse.json(
-                { error: "Assessment data not found" },
-                { status: 404 }
-            );
+            throw new Error("No assessment data found for the given course.");
         }
+
+        const res: ReturnData = {
+            code: data.integrat_coursecode,
+            courseName: data.integrat_coursename,
+            assessment: []
+        };
 
         const assessments: Assessment[] =
             data.integrat_CO_Assessment.map((item): Assessment => ({
@@ -36,14 +35,13 @@ export async function fetchData(form: GetData) {
                     item.integrat_weight.replace("%", "")
                 ),
             }));
+        
+        res.assessment = assessments;
 
-        return NextResponse.json(assessments, { status: 200 });
+        return res;
     } catch (error) {
         console.error("Failed to fetch course data:", error);
 
-        return NextResponse.json(
-            { error: "Failed to fetch course data" },
-            { status: 500 }
-        );
+        throw new Error("Failed to fetch course data");
     }
 }

@@ -9,6 +9,8 @@ export interface UNSWAssessment {
 }
 
 export interface UNSWData {
+    integrat_coursecode: string;
+    integrat_coursename: string;
     integrat_CO_Assessment: UNSWAssessment[];
 }
 

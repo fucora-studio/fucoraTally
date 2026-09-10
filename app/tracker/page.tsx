@@ -10,27 +10,21 @@ import { useState } from "react";
 
 export default function Tracker() {
     // Keep these because your parent display UI relies on them!
-    const [courseCode, setCourseCode] = useState("");
-    const [term, setTerm] = useState("");
-    const [location, setLocation] = useState("");
     const [datas, setData] = useState<ReturnData[] | null>(DummyData);
 
     // 1. Create a function that maps the variables coming out of the form to your page state
-    const handleFormSubmit = (resultData: ReturnData[], formCourse: string, formTerm: string, formLoc: string) => {
+    const handleFormSubmit = (resultData: ReturnData, formCourse: string, formTerm: string, formLoc: string) => {
         // Append or replace the data (using append logic since your original code did that)
-        setData(prevItems => [...(prevItems || []), ...resultData]);
+        setData(prevItems => [...(prevItems || []), resultData]);
         // Update the textual titles on the page
-        setCourseCode(formCourse);
-        setTerm(formTerm);
-        setLocation(formLoc);
-        console.log("Received data:", resultData);
+        console.log("Received data:", resultData);  
     };
 
     return (
         <div>
             <NavBar/>
             <div className="flex flex-row">
-                {/* <CourseForm onSubmit={handleFormSubmit} /> */}
+                <CourseForm onSubmit={handleFormSubmit} />
 
                 <div className="grid grid-cols-3 gap-4 p-5 min-[1442px]:w-[85vw] h-screen">
                     {datas != null && datas.map((data, index) =>

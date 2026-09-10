@@ -4,7 +4,16 @@ const DummyData: ReturnData[] = [
     {
         code: "AAAA1111",
         courseName: "Dummy Data",
-        assessment: [],
+        assessment: [
+            {
+                name: "Dummy Assessment",
+                weight: 50
+            }, 
+            {
+                name: "Dummy Assessment 2",
+                weight: 50
+            }
+        ],
     },
 ];
 
