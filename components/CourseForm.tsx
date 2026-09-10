@@ -4,7 +4,7 @@ import { useState } from "react";
 
 // Make sure this interface has 4 parameters, matching what Tracker passes it!
 interface CourseFormProps {
-    onSubmit: (resultData: ReturnData[], courseCode: string, term: string, location: string) => void;
+    onSubmit: (resultData: ReturnData, courseCode: string, term: string, location: string) => void;
 }
 
 export default function CourseForm({ onSubmit }: CourseFormProps) {
@@ -26,7 +26,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
                 },
                 body: JSON.stringify({ courseCode, term, location })
             });
-            const result:ReturnData[] = await res.json();
+            const result:ReturnData = await res.json();
             console.log("Received data:", result);
             onSubmit(result, courseCode, term, location); 
         } catch (e) {
