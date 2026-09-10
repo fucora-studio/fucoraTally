@@ -2,8 +2,9 @@ import { NextResponse } from "next/server";
 // import { getData } from "@/lib/zod";
 
 interface ReturnData {
-    name: string;
-    assesment: Assessment[];
+  code: string;
+  courseName: string;
+  assessment: Assessment[];
 }
 
 interface Assessment {

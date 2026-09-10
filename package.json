@@ -19,6 +19,7 @@
 		"@types/react-dom": "latest",
 		"@vitejs/plugin-react": "latest",
 		"@vitejs/plugin-rsc": "latest",
+		"oxlint": "^1.82.0",
 		"tailwindcss": "latest",
 		"typescript": "latest",
 		"vite": "latest",
@@ -27,6 +28,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vinext dev",
+		"lint": "oxlint .",
 		"build": "vinext build",
 		"start": "wrangler dev --config dist/server/wrangler.json",
 		"deploy": "vinext-cloudflare deploy --config dist/server/wrangler.json",
