@@ -1,85 +1,45 @@
-"use client"
+"use client";
 
+import CourseForm from "@/components/CourseForm";
 import NavBar from "@/components/Navbar";
-import { Assessment, error } from "@/lib/interface";
+import CourseCard from "@/components/TrackerCard/CourseCard";
+import DummyData from "@/lib/dump";
+import { Assessment, ReturnData } from "@/lib/interface";
 import { useState } from "react";
 
+
 export default function Tracker() {
+    // Keep these because your parent display UI relies on them!
     const [courseCode, setCourseCode] = useState("");
     const [term, setTerm] = useState("");
     const [location, setLocation] = useState("");
-    const [data, setData] = useState<Assessment[] | null> (null);
-    const [locOpt, setLocOpt] = useState<number>(0);
-    const [error, setError] = useState<error>({ error: false, message: "" });
+    const [datas, setData] = useState<ReturnData[] | null>(DummyData);
 
-    const handleSubmit = async (e: React.SubmitEvent<HTMLFormElement>) => {
-        e.preventDefault(); 
-        try{
-            console.log("Submitting with:", { courseCode, term, location });
-            const res = await fetch("/api/getData", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify({ courseCode, term, location })
-            });
-            const result:Assessment[] = await res.json();
-            console.log("Received data:", result);
-            setData(result);
-        } catch (e) {
-            console.error("Error encountered:", e);
-            const errorMessage = e instanceof Error ? e.message : String(e);
-            setError({error:true, message: errorMessage});
-        }
-    }
+    // 1. Create a function that maps the variables coming out of the form to your page state
+    const handleFormSubmit = (resultData: ReturnData[], formCourse: string, formTerm: string, formLoc: string) => {
+        // Append or replace the data (using append logic since your original code did that)
+        setData(prevItems => [...(prevItems || []), ...resultData]);
+        // Update the textual titles on the page
+        setCourseCode(formCourse);
+        setTerm(formTerm);
+        setLocation(formLoc);
+        console.log("Received data:", resultData);
+    };
 
     return (
         <div>
             <NavBar/>
-            <form className="flex flex-col justify-start p-5 min-[1442px]:w-[17vw]" onSubmit={handleSubmit}>
-                <p>CourseCode:</p>
-                <input required type="text" placeholder="AAAA1111" value={courseCode} onChange={(e) => setCourseCode(e.target.value.toUpperCase())} />
+            <div className="flex flex-row">
+                {/* <CourseForm onSubmit={handleFormSubmit} /> */}
 
-                <p>Term:</p>
-                <input required type="text" placeholder="1" value={term} onChange={(e) => setTerm(e.target.value)} />
-
-                <p>Location:</p>
-                <div className="flex flex-row justify-between w-full">
-                    <button type="button" 
-                            className={`rounded-lg text-white p-2 active:bg-blue-700 ${locOpt == 1? "bg-blue-700" : "bg-blue-500 "}`}
-                            onClick={() => {
-                                setLocation("Kensington");
-                                setLocOpt(1);
-                            }}>
-                        Kensington
-                    </button>
-                    <button type="button" 
-                            className={`rounded-lg text-white p-2 active:bg-blue-700 ${locOpt == 2? "bg-blue-700" : "bg-blue-500 "}`}
-                            onClick={() => {
-                                setLocation("Paddington");
-                                setLocOpt(2);
-                                }}>
-                        Paddington
-                    </button>
+                <div className="grid grid-cols-3 gap-4 p-5 min-[1442px]:w-[85vw] h-screen">
+                    {datas != null && datas.map((data, index) =>
+                        <div key={index}>
+                            <CourseCard input={data}/>
+                        </div>
+                    )}
                 </div>
-
-                <button type="submit">Submit</button>
-            </form>
-
-            {error.error && <p className="text-red-500">Error fetching data: {error.message}</p>}
-            {data && data.length > 0 && (
-                <div>
-                    <h2>{courseCode}:</h2>
-                    <ul> 
-                        {data.map((assessment, index) => (
-                            <li key={index}>
-                                <p>Name: {assessment.name}</p>
-                                <p>Weight: {assessment.weight}</p>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            )}
+            </div>
         </div>
-    )
+    );
 }

@@ -4,8 +4,17 @@
   color-scheme: dark;
 }
 
+@theme inline {
+	--color-primary1: rgb(50,50,50);
+	--color-primary2: rgba(255, 255, 255, 0.1);
+	--color-button: #ffd6a5;
+	--color-shadow: #d4af37;
+	/* --color-cream: #ED9E59; */
+	--color-base: rgb(30, 30, 30);
+}
+
 html, body {
-  background-color: #0f172a !important;
-  color: #f8fafc !important;
+  background-color: var(--color-base);
+  color: rgb(225, 225, 225);
   margin: 0;
 }
