@@ -38,7 +38,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
 
     return (
         <div>
-            <div className="flex flex-col justify-start p-5 min-[1442px]:w-[18vw] bg-gray-500 h-screen">
+            <div className="flex flex-col justify-start p-5 min-[1442px]:w-[18vw] bg-[var(--color-primary1)] h-screen">
                 <form className="flex flex-col justify-start p-5 min-[1442px]:w-[15vw]" onSubmit={handleSubmit}>
                     <p>CourseCode:</p>
                     <input required type="text" placeholder="AAAA1111"
@@ -53,7 +53,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
                     <p>Location:</p>
                     <div className="flex flex-row justify-between w-full">
                         <button type="button" 
-                            className={`rounded-lg text-white p-2 active:bg-blue-700 ${locOpt == 1? "bg-blue-700" : "bg-blue-500 "}`}
+                            className={`rounded-lg text-white p-2 ${locOpt == 1? "bg-[var(--color-primary-teal)]" : "bg-[var(--color-primary-deb)] "}`}
                             onClick={() => {
                                 setLocation("Kensington");
                                 setLocOpt(1);
@@ -61,7 +61,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
                             Kensington
                         </button>
                         <button type="button" 
-                                className={`rounded-lg text-white p-2 active:bg-blue-700 ${locOpt == 2? "bg-blue-700" : "bg-blue-500 "}`}
+                                className={`rounded-lg text-white p-2 ${locOpt == 2? "bg-[var(--color-primary-teal)]" : "bg-[var(--color-primary-deb)] "}`}
                                 onClick={() => {
                                     setLocation("Paddington");
                                     setLocOpt(2);
@@ -70,7 +70,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
                         </button>
                     </div>
     
-                    <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mt-3 px-4 rounded-md">
+                    <button type="submit" className="bg-[var(--color-primary2)] hover:bg-[var(--color-primary-teal)]/85 text-white font-bold py-2 mt-3 px-4 rounded-md">
                         Submit
                     </button>
                 </form>
