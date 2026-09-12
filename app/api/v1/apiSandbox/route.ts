@@ -28,6 +28,6 @@ export async function POST(request: Request) {
   console.log("Body:", JSON.parse(text).integrat_CO_Assessment);
 
   return Response.json({
-    data: JSON.parse(text).integrat_CO_Assessment,
+	res: "This endpoint is only for Testing purposes. This endpoint is not accesible for public use. Please use the /api/getData endpoint instead.",
   });
 }
