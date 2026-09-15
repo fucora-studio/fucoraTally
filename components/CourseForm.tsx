@@ -19,7 +19,7 @@ export default function CourseForm({ onSubmit }: CourseFormProps) {
         e.preventDefault(); 
         try{
             console.log("Submitting with:", { courseCode, term, location });
-            const res = await fetch("/api/getData", {
+            const res = await fetch("/api/v1/getData", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
